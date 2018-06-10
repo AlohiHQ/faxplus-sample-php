@@ -1,0 +1,28 @@
+{
+    "name": "alohi/faxplus-sample-php",
+    "description": "A sample app to test faxplus api",
+    "keywords": [
+        "php",
+        "sdk",
+        "api",
+        "alohi"
+    ],
+    "homepage": "http://github.com/alohi/faxplus-sample-php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "alohi",
+            "homepage": "https://github.com/alohi"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "slim/slim": "^3.1",
+        "slim/php-view": "^2.0",
+        "monolog/monolog": "^1.17",
+        "alohi/faxplus-api": "*"
+    },
+    "config": {
+        "process-timeout" : 0
+    }
+}
